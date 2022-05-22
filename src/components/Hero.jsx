@@ -10,7 +10,7 @@ function Hero() {
           <h1>blízko.</h1>
           <h2>Sousedství, jak ho ještě neznáte</h2>
         </div>
-        <div>
+        <div className="heroImgWrapper">
           <img src={hero} alt="houses illustration" />
         </div>
       </section>

@@ -2,17 +2,36 @@
 @import "./_typography.sass"
 
 main 
-  background: $light
+  background: white
   margin: 0 auto
   max-width:1600px
 
+html 
+  scroll-behavior: smooth
 
 body
   font-family: $body
+  line-height: 2em
 
 h1,
 h2,
 h3,
 h4
   font-family: $headings
+  line-height: 1.5em
   
+h3
+  color: $green
+  font-weight: 700
+  text-align: center
+  font-size: 25px
+  @media(min-width:1100px)
+    font-size: 32px
+
+section 
+  padding:24px
+  scroll-margin-top: 50px
+  @media(min-width:768px)
+    padding: 24px 50px
+  @media(min-width:1100px)
+    padding: 50px 100px

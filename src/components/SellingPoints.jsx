@@ -1,8 +1,9 @@
 import React from 'react';
+import './sellingPoints.scss';
 
 function SellingPoints() {
   return (
-    <section>
+    <section id="about" className="sellingPoints">
       <h3>
         <span>blízko.</span> vaše možnosti přes ulici
       </h3>

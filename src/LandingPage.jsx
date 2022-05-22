@@ -6,6 +6,8 @@ import Offer from './components/Offer';
 import './landingPage.sass';
 import Search from './components/Search';
 import Functionalities from './components/Functionalities';
+import TargetGroup from './components/TargetGroup';
+import Team from './components/Team';
 
 function LandingPage() {
   return (
@@ -16,6 +18,8 @@ function LandingPage() {
       <Offer />
       <Search />
       <Functionalities />
+      <TargetGroup />
+      <Team />
     </main>
   );
 }
