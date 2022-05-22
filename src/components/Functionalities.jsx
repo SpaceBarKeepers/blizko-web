@@ -1,14 +1,17 @@
 import React from 'react';
-import mockup3 from '../images/mockup3.png';
+import mockup3 from '../images/MockupMap.png';
+import './functionalities.scss';
 
 function Functionalities() {
   return (
-    <section>
-      <h4>Jak blízko. funguje?</h4>
-      <span>Verifikuje své uživatele</span>
-      <span>lokalizuje jejich polohu</span>
-      <span>zobrazí nejbližší nabídky</span>
-      <img src={mockup3} alt="" />
+    <section id="how" className="how">
+      <h3>Jak blízko. funguje?</h3>
+      <span>Verifikuje své uživatele.</span>
+      <span>Lokalizuje jejich polohu.</span>
+      <span>Zobrazí nejbližší nabídky.</span>
+      <div className="mockupWrapper">
+        <img className="mockup" src={mockup3} alt="" />
+      </div>
     </section>
   );
 }

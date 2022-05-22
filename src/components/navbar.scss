@@ -1,0 +1,103 @@
+@import '../colors';
+
+.navbar {
+  width: 100%;
+  z-index: 222;
+
+  @media (min-width: 1100px) {
+    position: relative;
+    flex-basis: 80%;
+  }
+  .fa-bars {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 222;
+    font-size: 2rem;
+    @media (min-width: 800px) {
+      display: none;
+    }
+  }
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 24px;
+  &.collapsed {
+    display: flex;
+    justify-content: space-between;
+    color: $red;
+
+    @media only screen and (max-width: 800px) {
+      margin: 0;
+      padding-top: 8px;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      overflow: hidden;
+      max-height: 0;
+      -moz-transition-duration: 0.3s;
+      -webkit-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+      -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+      -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+      transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+
+      &.is-expanded {
+        overflow: hidden;
+        background-color: white;
+        max-height: 500px; /* approximate max height */
+        -moz-transition-duration: 0.3s;
+        -webkit-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -moz-transition-timing-function: ease-in;
+        -webkit-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        border-bottom: 10px $green solid;
+      }
+    }
+    a {
+      justify-content: space-between;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: 'Raleway', sans-serif;
+      color: $red;
+      font-weight: 700;
+      border-bottom: 3px solid transparent;
+
+      &:hover {
+        border-bottom: 3px solid $yellow;
+        font-weight: 700;
+      }
+
+      li {
+        padding: 0;
+      }
+      @media (max-width: 800px) {
+        padding: 0px;
+        display: block;
+        width: 100%;
+        padding: 20px 0 10px;
+        cursor: pointer;
+      }
+      @media (min-width: 800px) {
+        margin: 0 11px;
+        padding-bottom: 8px;
+        font-weight: 500;
+      }
+      @media (min-width: 1100px) {
+        margin: 0 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import '../_colors.sass';
+
+.team {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  div {
+    @media (min-width: 768px) {
+      width: 30%;
+      margin: 0 11px;
+    }
+  }
+  ul {
+    list-style-type: disc;
+
+    li::marker {
+      color: $red;
+    }
+
+    a {
+      text-decoration: none;
+      color: $green;
+    }
+  }
+  h4 {
+    color: $red;
+    text-transform: uppercase;
+    @media (min-width: 768px) {
+      text-align: center;
+    }
+  }
+}

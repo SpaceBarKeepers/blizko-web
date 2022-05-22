@@ -1,0 +1,37 @@
+.offer {
+  div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+    p,
+    h3 {
+      @media (min-width: 768px) {
+        width: 45%;
+      }
+    }
+    h3 {
+      @media (min-width: 768px) {
+        text-align: left;
+        margin: 16px 24px 0 0;
+      }
+    }
+  }
+}
+
+.mockupWrapper {
+  width: 100%;
+  margin: 16px auto;
+  @media (min-width: 768px) {
+    width: 70%;
+  }
+  @media (min-width: 1100px) {
+    width: 60%;
+    margin: 30px auto;
+  }
+  .mockup {
+    max-width: 100%;
+  }
+}
