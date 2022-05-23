@@ -8,11 +8,12 @@ function Offer() {
       <div>
         <h3>Objevte možnosti, které kolem sebe máte, ale nevíte o nich.</h3>
         <p>
-          Znáte své nejbližší sousedy? Víte, že o patro níž bydlí soused s
-          vermikompostérem, ke kterému můžete odnést svůj bioodpad? Že v
-          sousedním vchodě žije rodina, která vášnivě fermentuje a od které si
-          můžete zakoupit čerstvou fermentovanou limonádu? A přímo nad vámi je
-          někdo, kdo po večerech vyžehlí rád i vaše prádlo? Nevíte. Zatím.
+          Znáte své nejbližší sousedy? Víte, že o patro níž bydlí soused
+          s&nbsp;vermikompostérem, ke kterému můžete odnést svůj bioodpad?
+          Že&nbsp;v&nbsp;sousedním vchodě žije rodina, která vášnivě fermentuje
+          a od které si můžete zakoupit čerstvou fermentovanou limonádu? A přímo
+          nad vámi je někdo, kdo po&nbsp;večerech vyžehlí rád i vaše prádlo?
+          <br /> Nevíte. Zatím.
         </p>
       </div>
       <div className="mockupWrapper">

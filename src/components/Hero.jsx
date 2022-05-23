@@ -8,7 +8,7 @@ function Hero() {
       <section className="heroSection">
         <div className="heroClaim">
           <h1>blízko.</h1>
-          <h2>Sousedství, jak ho ještě neznáte</h2>
+          <h2>Sousedství, jak&nbsp;ho ještě neznáte</h2>
         </div>
         <div className="heroImgWrapper">
           <img src={hero} alt="houses illustration" />

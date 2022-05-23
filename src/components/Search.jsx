@@ -13,8 +13,8 @@ function Search() {
         <p>
           Máte zahrádku a nestíháte v sezóně spotřebovat všechnu úrodu? Máte
           vrtačku, kterou použijete dvakrát do roka a jinak se na ní práší? A co
-          třeba lyže, které už nevyužijete? Vyměňte je. Prodejte. Darujte.
-          Směňte.
+          třeba lyže, které už&nbsp;nevyužijete? <br />
+          Vyměňte je. Prodejte. Darujte. Směňte.
         </p>
       </div>
       <div className="mockupWrapper">

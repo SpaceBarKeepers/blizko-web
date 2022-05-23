@@ -20,13 +20,13 @@ function SellingPoints() {
         <div>
           <h4>Buduje</h4>
           <p>
-            komunitu a sousedské vztahy. ať už jde o sdílený sport, koníčky nebo
+            komunitu a sousedské vztahy. Ať už jde o sdílený sport, koníčky nebo
             sousedství.
           </p>
         </div>
         <div>
           <h4>Přispívá</h4>
-          <p>k prostředí, které je udržitelné, sousedské a bezpečné.</p>
+          <p>k prostředí, které je udržitelné, sousedské a&nbsp;bezpečné.</p>
         </div>
       </div>
     </section>

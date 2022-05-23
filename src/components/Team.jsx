@@ -46,7 +46,7 @@ function Team() {
           <h4>Bára Marešová</h4>{' '}
           <ul>
             <li>
-              Zodpovědná za UX design, grafiku a frontendovou část aplikace.
+              Zodpovědná za UX design, grafiku a&nbsp;frontendovou část aplikace.
             </li>
             <li>Garantka komunikace s médii a zákazníky.</li>
             <li>
