@@ -7,7 +7,7 @@ function Team() {
       <h3>Kdo tvoří blízko.</h3>
       <div className="team">
         <div>
-          <h4>Natálie Průšová</h4>
+          <h4>Natálie Slunečková</h4>
           <ul>
             <li>
               Zodpovědná za klíčová partnerství a obchodní strategii
