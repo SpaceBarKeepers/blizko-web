@@ -14,8 +14,8 @@ function TargetGroup() {
     <section id="personas" className="personas">
       <h3>Pro koho je aplikace blízko.</h3>
       <div className="personasWrapper">
-        <img src={zero} alt="" />
         <img src={jidlo} alt="" />
+        <img src={zero} alt="" />
         <img src={pestovani} alt="" />
         <img src={vypomoc} alt="" />
         <img src={mazlicci} alt="" />
