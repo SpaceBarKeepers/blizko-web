@@ -1,0 +1,78 @@
+@import '../_colors.sass';
+
+footer {
+  background-color: $red;
+  color: white;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: $yellow;
+      text-decoration: underline;
+    }
+  }
+}
+
+.thankyou {
+  text-align: center;
+  margin: 24px auto;
+  @media (min-width: 768px) {
+    margin: 50px auto 24px;
+  }
+  @media (min-width: 1100px) {
+    width: 100%;
+  }
+}
+
+.closeModal {
+  background-color: $yellow;
+  border: none;
+  padding: 12px;
+  border-radius: 24px;
+  margin-left: 85%;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.openModal {
+  display: inline;
+  cursor: pointer;
+  font-weight: 700;
+  &:hover {
+    color: $yellow;
+    text-decoration: underline;
+  }
+}
+
+.footerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+
+  .faqWrapper {
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+  }
+  @media (min-width: 768px) {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+.footerLogoWrapper {
+  width: 200px;
+  order: 1;
+  img {
+    max-width: 100%;
+  }
+  @media (min-width: 768px) {
+    order: -1;
+  }
+}

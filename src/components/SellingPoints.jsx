@@ -4,9 +4,9 @@ import './sellingPoints.scss';
 function SellingPoints() {
   return (
     <section id="about" className="sellingPoints">
-      <h3>
+     {/*  <h3>
         <span>blízko.</span> vaše možnosti přes ulici
-      </h3>
+      </h3> */}
       <div className="sellingPoints-div">
         <div>
           <h4>Propojuje</h4>

@@ -8,6 +8,7 @@ import Search from './components/Search';
 import Functionalities from './components/Functionalities';
 import TargetGroup from './components/TargetGroup';
 import Team from './components/Team';
+import Footer from './components/Footer';
 
 function LandingPage() {
   return (
@@ -20,6 +21,7 @@ function LandingPage() {
       <Functionalities />
       <TargetGroup />
       <Team />
+      <Footer />
     </main>
   );
 }

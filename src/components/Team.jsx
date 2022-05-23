@@ -19,6 +19,7 @@ function Team() {
             </li>
             <li>
               Kontakt:
+              <br />
               <a href="mailto:natalie.sluneckova@gmail.com">
                 natalie.sluneckova@gmail.com
               </a>
@@ -35,7 +36,7 @@ function Team() {
             </li>
             <li>
               {' '}
-              Kontakt:
+              Kontakt: <br />
               <a href="mailto:karel@spacebarkeepers.com">
                 karel@spacebarkeepers.com
               </a>
@@ -46,14 +47,15 @@ function Team() {
           <h4>Bára Marešová</h4>{' '}
           <ul>
             <li>
-              Zodpovědná za UX design, grafiku a&nbsp;frontendovou část aplikace.
+              Zodpovědná za UX design, grafiku a&nbsp;frontendovou část
+              aplikace.
             </li>
             <li>Garantka komunikace s médii a zákazníky.</li>
             <li>
               Oblíbená kategorie v blízko.: Jídlo a homemade a Domácí mazlíčci.
             </li>
             <li>
-              Kontakt:
+              Kontakt: <br />
               <a href="mailto:bara@spacebarkeepers.com">
                 bara@spacebarkeepers.com
               </a>
