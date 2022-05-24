@@ -13,7 +13,7 @@ function Offer() {
           Že&nbsp;v&nbsp;sousedním vchodě žije rodina, která vášnivě fermentuje
           a od které si můžete zakoupit čerstvou fermentovanou limonádu? A přímo
           nad vámi je někdo, kdo po&nbsp;večerech vyžehlí rád i vaše prádlo?
-          <br /> Nevíte. Zatím.
+          <br /> Nevíte? Zatím.
         </p>
       </div>
       <div className="mockupWrapper">
