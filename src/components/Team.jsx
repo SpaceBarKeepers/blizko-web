@@ -1,4 +1,6 @@
 import React from 'react';
+import kaja from "../images/kaja.webp";
+import bara from "../images/bara.webp";
 import './team.scss';
 
 function Team() {
@@ -7,6 +9,7 @@ function Team() {
       <h3>Kdo tvoří blízko.</h3>
       <div className="team">
         <div>
+          <img src="https://ca.slack-edge.com/T030UABAM19-U031SC7DZNF-cc727de9dcdf-512" className="fotoTeam" alt="" />
           <h4>Natálie Slunečková</h4>
           <ul>
             <li>
@@ -27,6 +30,7 @@ function Team() {
           </ul>
         </div>
         <div>
+          <img src={kaja} className="fotoTeam" alt="" />
           <h4>Karel Dohnal</h4>{' '}
           <ul>
             <li>Zodpovědný za vývoj backendové části aplikace.</li>
@@ -44,6 +48,7 @@ function Team() {
           </ul>
         </div>
         <div>
+          <img src={bara} className="fotoTeam" alt="" />
           <h4>Bára Marešová</h4>{' '}
           <ul>
             <li>
