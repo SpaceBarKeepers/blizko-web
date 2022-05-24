@@ -3,7 +3,7 @@ import './team.scss';
 
 function Team() {
   return (
-    <section id="aboutUs">
+    <section id="aboutUs" className="aboutUs">
       <h3>Kdo tvoří blízko.</h3>
       <div className="team">
         <div>

@@ -1,8 +1,13 @@
 @import '../_colors.sass';
 
+.aboutUs {
+  background-color: rgba(234, 174, 11, 0.1);
+}
+
 .team {
   display: flex;
   flex-direction: column;
+
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;

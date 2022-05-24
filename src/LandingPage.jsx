@@ -9,6 +9,7 @@ import Functionalities from './components/Functionalities';
 import TargetGroup from './components/TargetGroup';
 import Team from './components/Team';
 import Footer from './components/Footer';
+import Tryapp from './components/Tryapp';
 
 function LandingPage() {
   return (
@@ -20,6 +21,7 @@ function LandingPage() {
       <Search />
       <Functionalities />
       <TargetGroup />
+      <Tryapp />
       <Team />
       <Footer />
     </main>

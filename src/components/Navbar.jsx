@@ -27,6 +27,9 @@ function Navbar() {
             <a href="#personas">Pro koho je</a>
           </li>
           <li>
+            <a href="#try">Vyzkoušet</a>
+          </li>
+          <li>
             <a href="#aboutUs">Kdo ji tvoří</a>
           </li>
         </ul>
